@@ -35,10 +35,35 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body class="mat-typography">
   <app-root></app-root>
 </body>
+
+<script type="text/javascript">
+
+  document.onreadystatechange = function () {
+
+    var state = document.readyState;
+    var loader = document.getElementById('loader');
+    var content = document.getElementById('content');
+
+
+    if (state == 'interactive') {
+      loader.style.display = "block";
+      content.style.display = "none";
+    } else if (state == 'complete') {
+    
+      setTimeout(function () {
+
+        loader.style.display = "none";
+        content.style.display = "block";
+
+      }, 1000);
+    }
+  }
+</script>
 
 </html>

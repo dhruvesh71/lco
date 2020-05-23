@@ -1,8 +1,8 @@
 body {
-    padding-top: 10%;
-    position   : relative;
-    background : #eeeeee;
-    z-index    : 3;
+    padding   : 10% 0% 1% 0%;
+    position  : relative;
+    background: #eeeeee;
+    z-index   : 3;
 }
 
 .video-gameplay {
@@ -13,7 +13,27 @@ body {
     iframe {
         width        : 50%;
         height       : 50vh;
-        box-shadow   : 0 16px 24px 2px rgba(0, 0, 0, 0.2);
+        box-shadow   : 0 5px 15px 2px rgba(0, 0, 0, 0.2);
         border-radius: 6px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .video-gameplay {
+
+        iframe {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .video-gameplay {
+
+        iframe {
+            width: 90%;
+        }
     }
 }

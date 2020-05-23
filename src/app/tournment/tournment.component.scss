@@ -39,3 +39,41 @@ body {
     text-align: right;
     margin    : 10% 20% 0% 0%;
 }
+
+@media screen and (max-width: 767px) {
+
+    .tournment-section {
+        padding: 100% 5% 0% 0%;
+    }
+
+    .tournment-heading {
+        font-size: 2.5rem;
+    }
+
+    .tournment-subheading {
+        font-size: .5rem;
+    }
+
+    .tournment-contact-wrapper {
+        margin: 20% 20% 0% 0%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .tournment-section {
+        padding: 100% 5% 0% 0%;
+    }
+
+    .tournment-heading {
+        font-size: 2.5rem;
+    }
+
+    .tournment-subheading {
+        font-size: .5rem;
+    }
+
+    .tournment-contact-wrapper {
+        margin: 20% 20% 0% 0%;
+    }
+}

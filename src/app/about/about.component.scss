@@ -8,13 +8,13 @@ body {
 }
 
 .about_heading {
-    font-family: "Verlag-Book","Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-align: center;
-    font-size: 2em;
-    line-height: 1.25;
+    font-family   : "Verlag-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align    : center;
+    font-size     : 2em;
+    line-height   : 1.25;
     letter-spacing: 0.3em;
-    margin: 0.4em 0;
-    font-weight: lighter;
+    margin        : 0.4em 0;
+    font-weight   : lighter;
     text-transform: uppercase;
 }
 
@@ -25,11 +25,29 @@ body {
     .about_section_one {
 
         img {
-            height: 90%;
-            width: 90%;
+            height       : 90%;
+            width        : 90%;
             border-radius: 6px;
             box-shadow   : 0 16px 24px 2px rgba(0, 0, 0, 0.2);
         }
     }
+}
 
+@media screen and (max-width: 767px) {
+
+    .about_section {
+
+        .about_section_two {
+            padding: 20% 0% 0% 0%;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .about_section {
+
+        .about_section_two {
+            padding: 20% 0% 0% 0%;
+        }
+    }
 }
