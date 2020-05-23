@@ -6,6 +6,7 @@
   <title>Lco</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -41,29 +42,5 @@
 <body class="mat-typography">
   <app-root></app-root>
 </body>
-
-<script type="text/javascript">
-
-  document.onreadystatechange = function () {
-
-    var state = document.readyState;
-    var loader = document.getElementById('loader');
-    var content = document.getElementById('content');
-
-
-    if (state == 'interactive') {
-      loader.style.display = "block";
-      content.style.display = "none";
-    } else if (state == 'complete') {
-    
-      setTimeout(function () {
-
-        loader.style.display = "none";
-        content.style.display = "block";
-
-      }, 1000);
-    }
-  }
-</script>
 
 </html>

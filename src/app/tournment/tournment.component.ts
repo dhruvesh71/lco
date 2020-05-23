@@ -15,7 +15,9 @@ export class TournmentComponent implements OnInit {
   }
 
   public openContactDialog(): void {
-    this.matDialog.open(ContactComponent);
+    this.matDialog.open(ContactComponent, {
+      width: '50%'
+    });
   }
 
 }
