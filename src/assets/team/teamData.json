@@ -1,0 +1,27 @@
+[
+    {
+        "url": "../../assets/team/Stephen Curry.png",
+        "playerName": "Stephen Curry",
+        "playerBio": "Wardell Stephen \"Steph\" Curry II is an American professional basketball player for the Golden State Warriors of the National Basketball Association (NBA)."
+    },
+    {
+        "url": "../../assets/team/Lebron James.png",
+        "playerName": "Lebron James",
+        "playerBio": "LeBron Raymone James Sr is an American professional basketball player for the Los Angeles Lakers of the National Basketball Association (NBA)."
+    },
+    {
+        "url": "../../assets/team/Dwyane Wade.png",
+        "playerName": "Dwyane Wade",
+        "playerBio": "Dwyane Tyrone Wade Jr. is an American professional basketball player. Wade is Miami's all-time leader in points, games, assists, steals, shots made, and shots taken."
+    },
+    {
+        "url": "../../assets/team/Anthony Davis.png",
+        "playerName": "Anthony Davis",
+        "playerBio": "Anthony Marshon Davis Jr. (born March 11, 1993) is an American professional basketball player for the Los Angeles Lakers of the National Basketball Association (NBA)."
+    },
+    {
+        "url": "../../assets/team/LaMarcus Aldridge.png",
+        "playerName": "LaMarcus Aldridge",
+        "playerBio": "LaMarcus Nurae Aldridge (born July 19, 1985) is an American professional basketball player for the San Antonio Spurs of the National Basketball Association (NBA)."
+    }
+]

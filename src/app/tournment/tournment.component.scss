@@ -1,0 +1,41 @@
+body {
+    background                : url('../../assets/tournment.jpg');
+    background-repeat         : no-repeat;
+    background-position       : center;
+    background-size           : cover;
+    z-index                   : 3;
+    width                     : 100%;
+    height                    : 90vh;
+    color                     : #fff;
+    border-bottom-left-radius : 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+.tournment-section {
+    padding: 10% 5% 0% 0%;
+}
+
+.tournment-heading {
+    display       : block;
+    text-align    : right;
+    font-size     : 5rem;
+    line-height   : 1.25;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-family   : 'Anton', sans-serif;
+}
+
+.tournment-subheading {
+    display       : block;
+    text-align    : right;
+    font-size     : 1rem;
+    line-height   : 1.25;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.tournment-contact-wrapper {
+    text-align: right;
+    margin    : 10% 20% 0% 0%;
+}

@@ -1,0 +1,21 @@
+<body>
+
+    <span class="team_heading">
+        Team
+    </span>
+
+    <div class="w3-container">
+
+        <ul>
+        <div class="team-image" *ngFor="let teamMember of team">
+
+                <li><img src="{{teamMember.url}}" />
+                    <h2>{{teamMember.playerName}}</h2>
+                    <p>{{teamMember.playerBio}}</p>
+                </li>
+
+        </div>
+    </ul>
+
+    </div>
+</body>

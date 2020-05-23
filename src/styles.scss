@@ -1,0 +1,30 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.lco-button {
+    border        : none;
+    font-size     : 16px;
+    font-weight   : 400;
+    background    : #e62b4a;
+    color         : #fff;
+    text-transform: uppercase;
+    text-align    : center;
+    line-height   : .8;
+    letter-spacing: 1.6px;
+    outline       : none;
+    padding       : 28px 40.5px;
+    cursor        : pointer;
+    transition    : all .5s;
+    box-shadow    : 5px 5px #fff;
+}
+
+.lco-button:hover {
+    background-color: #fff;
+    color           : #e62b4a;
+    box-shadow      : 5px 5px #e62b4a;
+}
+

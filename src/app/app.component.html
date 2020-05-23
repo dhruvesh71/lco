@@ -1,0 +1,51 @@
+<body appScroll #home>
+
+  <header id="header">
+
+    <img src="../assets/sports-logo-transparent.png" alt="lco logo"/>
+    
+    <span id="header-icon">
+      <a (click)="scrollToPage(about)">
+        <p></p>
+        <p></p>
+      </a>
+    </span>
+
+    <ul id="header-menu">
+      <li><a (click)="scrollToPage(home)">Home</a></li>
+      <li><a (click)="scrollToPage(about)">About</a></li>
+      <li><a (click)="scrollToPage(team)">Team</a></li>
+      <li><a (click)="scrollToPage(contact)">Contact</a></li>
+    </ul>
+  </header>
+
+  <section>
+    <app-home></app-home>
+  </section>
+
+  <div class="raised-section">
+    <section #about>
+      <app-about></app-about>
+    </section>
+
+    <section #team>
+      <app-team></app-team>
+    </section>
+
+    <section>
+      <app-video></app-video>
+    </section>
+
+    <section>
+      <app-faq></app-faq>
+    </section>
+
+    <section #contact>
+      <app-tournment></app-tournment>
+    </section>
+  </div>
+
+  <footer>
+    <app-footer></app-footer>
+  </footer>
+</body>

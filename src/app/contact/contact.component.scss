@@ -1,0 +1,39 @@
+body {
+    padding         : 5% 0% 0% 0%;
+    text-align      : center;
+    background-color: #fff;
+    position        : relative;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-size  : 5rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color      : #e62b4a;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-size  : 2rem;
+    line-height: 1.25;
+}
+
+address {
+    padding: 5% 0% 0% 0%;
+
+    p {
+        line-height: .25;
+    }
+}
+
+.lco-button {
+    margin: 5% 5% 0% 0%;
+    box-shadow    : 5px 5px #545658;
+}
+
+.lco-button:hover  {
+    background-color: #545658;
+    color           : #fff;
+    box-shadow    : 5px 5px #e62b4a;
+}
